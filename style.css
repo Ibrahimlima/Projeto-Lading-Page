@@ -1,0 +1,183 @@
+/* ------ Variaveis ------*/
+
+:root{
+    --cor-letra-base: #fff;   
+    --cor-letra-especial-1: #122235;
+    --cor-letra-especial-2: #EAECE5;
+    --cor-letra-especial-3: #247ba0;
+    --cor-letra-especial-4: #383838;
+    --cor-fundo-base: #EAECE5;
+    --cor-fundo-especial-1: #247ba0;
+    --cor-sombra: #38383873;
+}
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+
+}
+
+/*------- Banner -------*/
+
+#banner{
+    background-image: url(Imagens/fundo_banner.svg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: var(--cor-letra-base)
+}
+
+#logo{
+    margin-top: 3.25rem;
+    margin-left: 3.5rem;
+}
+
+#titulo_banner{
+    margin-top: 3.25rem;
+    margin-left: 10.875rem;
+    font-weight: 400;
+    font-size: 2.5rem
+}
+
+#texto_banner{
+    margin-top: 3.25rem;
+    margin-left: 10.875rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding-bottom: 100px;
+}
+
+/*------- Menu informativo ------- */
+
+#menu_informativo{
+    background-color: var(--cor-fundo-base);
+    color: var(--cor-letra-especial-1);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.texto_menuInformativo{
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.icone_menuInformativo{
+    margin: 3.125rem 0px 3.125rem 10.875rem;
+    padding: 1.25rem;
+}
+
+
+/*------- Video informativo ------- */
+
+#video_informativo{
+    display:flex;
+    justify-content: center;
+}
+
+#video{
+    margin: 5rem 1.563rem 5rem 0rem;
+}
+
+#texto_videoInformativo{
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+
+.titulo_videoinformativo{
+    font-size: 2rem;
+    color: var(--cor-letra-especial-3);
+}
+
+/*------- Depoimentos ------- */
+
+#depoimentos{
+    font-weight: bold;
+    background-color: var(--cor-fundo-especial-1);
+    padding: 5rem;
+}
+
+#titulo_depoimentos{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--cor-letra-especial-2);
+    margin-bottom: 4rem;
+    
+}
+
+#cards_depoimentos{
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+}
+
+.seta{
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translatey(-0.938rem);
+    transition-duration: 1s;
+}
+
+#seta_esquerda{
+    display: none;
+}
+
+.img_depoimentos{
+    padding: 2.5rem;
+}
+
+#card_samantha{
+    display: none;
+}
+
+/*------- Formulário ------- */
+
+#formulario{
+    text-align: center;
+}
+
+#titulo_formulario{
+    font-size: 2rem;
+    margin-top: 1.375rem;
+    margin-bottom: 2.938rem;
+    color: var(--cor-letra-especial-4);
+
+}
+
+input{
+    width: 25rem;
+    height: 3rem;
+    margin: 1.219rem 0rem;
+    background-color: var(--cor-letra-especial-2);
+    border: 0rem;
+    border-radius: 0.5rem;
+    padding-left: 1.188rem;
+    font-size: 1rem;
+}
+
+button{
+    width: 20.938rem;
+    height: 3.313rem;
+    margin: 2.75rem;
+    padding: 1.188rem;
+    background-color: var(--cor-fundo-especial-1);
+    color: var(--cor-letra-base);
+    border: 0rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+button:hover{
+    transform: translatey(-0.938rem);
+    transition-duration: 1.5s;
+    box-shadow: 0.5rem 0.8rem var(--cor-sombra);
+}
